@@ -1,0 +1,13 @@
+mixin card(link, title, caption)
+  .container
+    img(src='http://roggero.me/img/' + link +'-1.jpg')
+    h1=title
+    p=caption 
+
+html
+  head
+  body
+    +card('cat', 'Angela & Squiddo', 'Best mings')
+    +card('travel', 'China', 'Ni Hao')
+    +card('colorado', 'Colorado', "Damn O'Driscolls")
+    

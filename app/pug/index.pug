@@ -1,0 +1,120 @@
+doctype html
+html
+  include head
+  body
+    include loader
+    include nav
+    .container-fluid.col-centered.col-lg-7.col-md-7.col-sm-9.col-xs-12
+      p.p-center-wrapper
+        img#tshape(data-aos='fade-up', data-aos-duration='1000', src='../assets/portfolio-T-shape-new.png', alt='')
+      p.p-center-wrapper.portfolio-title(data-aos='fade-up', data-aos-duration='1000', data-aos-delay='400')
+        | T for 
+        span.highlight-link Tony
+        | ,
+        br
+        |         Your T-Shaped Designer.
+      .arrow.bounce(data-aos='fade-up', data-aos-duration='1000', data-aos-delay='1000', data-aos-offset='-300')
+        a(href='#my-work')
+          i.fa.fa-angle-down.fa-3x(aria-hidden='true')
+    br
+    br
+    br
+    br
+    #my-work.container-fluid.col-centered
+      ul.thumbnail-grid
+        a(href='./works/mirror-mirror.html')
+          li.thumbnail-grid-item(data-aos='fade-up', data-aos-duration='600')
+            .card(style='background-image: url(../assets/portfolio-walker-thumbnail.png); background-size: contain; background-repeat: no-repeat;')
+              .card-pants
+                h4.card-title
+                  | Mirror Mirror
+                h5.card-subtitle
+                  | UX Design, UX Research, AI
+                p.card-content
+                  | Using AI to Cultivate Mindfulness in Personal Finance Management
+        a(href='./works/eatxplore.html')
+          li.thumbnail-grid-item(data-aos='fade-up', data-aos-duration='600', data-aos-delay='200')
+            .card(style='background-image: url(../assets/portfolio-eatxplore-thumbnail.png); background-size: contain; background-repeat: no-repeat;')
+              .card-pants
+                h4.card-title
+                  | Eatxplore
+                h5.card-subtitle
+                  | UX Design, UI Design, Motion Design, Crowdsourcing
+                p.card-content
+                  | Breaking the Cultural Barriers of Food
+        a(href='./works/THD.html')
+          li.thumbnail-grid-item(data-aos='fade-up', data-aos-duration='600', data-aos-offset='-50')
+            .card(style='background-image: url(../assets/portfolio-THD-thumbnail-web.png); background-size: contain; background-repeat: no-repeat;')
+              .card-pants
+                h4.card-title
+                  | My Home Depot Internship
+                h5.card-subtitle
+                  | UX Design, UX Research, Web Design
+                p.card-content
+                  | What I learned and what I could have done during my Home Depot internship.
+        a(href='./works/photos.html')
+          li.thumbnail-grid-item(data-aos='fade-up', data-aos-duration='600', data-aos-offset='-50', data-aos-delay='200')
+            .card(style='background-image: url(../assets/portfolio-photos-thumbnail.png); background-size: contain; background-repeat: no-repeat;')
+              .card-pants
+                h4.card-title
+                  | Google Photos Redesign
+                h5.card-subtitle
+                  | UX Design, UI Design, Motion Design, Design Exercise
+                p.card-content
+                  | Better discover and compare your best memories with Photo Groups.
+        a(href='./works/cook-fresh.html')
+          li.thumbnail-grid-item(data-aos='fade-up', data-aos-duration='600', data-aos-offset='-50')
+            .card(style='background-image: url(../assets/portfolio-CookFresh-thumbnail.png); background-size: contain; background-repeat: no-repeat;')
+              .card-pants
+                h4.card-title
+                  | Cook Fresh
+                h5.card-subtitle
+                  | Voice User Interface Design
+                p.card-content
+                  | Smart Cooking Assistant that Reduces Food Waste
+        a(href='./works/up-up.html')
+          li.thumbnail-grid-item(data-aos='fade-up', data-aos-duration='600', data-aos-delay='200', data-aos-offset='-50')
+            .card(style='background-image: url(../assets/portfolio-up-thumbnail.png); background-size: contain; background-repeat: no-repeat;')
+              .card-pants
+                h4.card-title
+                  | Up & Up
+                h5.card-subtitle
+                  | UX Design, Motion Design, UX Research
+                p.card-content
+                  | Collective Breathing Game for Stress Relief
+        a(href='./works/rei-backpack.html')
+          li.thumbnail-grid-item(data-aos='fade-up', data-aos-duration='600', data-aos-offset='-50')
+            .card(style='background-image: url(../assets/portfolio-REI-thumbnail.png); background-size: contain; background-repeat: no-repeat;')
+              .card-pants
+                h4.card-title
+                  | REI Backpack Finder
+                h5.card-subtitle
+                  | UX Design, UX Research
+                p.card-content
+                  | Helping Novice Backpackers Find the Perfect Backpack
+        a(href='./works/thriller.html')
+          li.thumbnail-grid-item(data-aos='fade-up', data-aos-duration='600', data-aos-delay='200', data-aos-offset='-50')
+            .card(style='background-image: url(../assets/portfolio-thriller-thumbnail.png); background-size: contain; background-repeat: no-repeat;')
+              .card-pants
+                h4.card-title
+                  | The Resurrected
+                h5.card-subtitle
+                  | VR Experience Design, VR Development
+                p.card-content
+                  | VR Dancing/Imitation Experience in Oculus Rift
+    .container-fluid
+      .row.footer-row
+        .footer.col-xs-12.col-sm-12.col-md-12.col-lg-12
+          p.footer-text Designed and Handcoded with ♥ and ♫
+        .footer-icons.col-xs-12.col-sm-12.col-md-12.col-lg-12
+          p
+            a(href='https://dribbble.com/yanfengjin', target='_blank')
+              i.fa.fa-dribbble.fa-lg(aria-hidden='true')
+            a(href='https://www.linkedin.com/in/yanfeng-jin-tony-80533455/', target='_blank')
+              i.fa.fa-linkedin.fa-lg(aria-hidden='true')
+            a(href='https://medium.com/@yanfengjin', target='_blank')
+              i.fa.fa-medium.fa-lg(aria-hidden='true')
+            a(href='mailto:yjin@gatech.edu', target='_blank')
+              i.fa.fa-envelope-o.fa-lg(aria-hidden='true')
+          br
+          p.footer-text-small Tony Yanfeng Jin © 2017-2018 All Rights Reserved
